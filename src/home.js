@@ -1,4 +1,5 @@
 const home = () =>{
+    console.log("huj")
 const root = document.getElementById('content');
 const element = document.createElement('div');
 element.innerHTML =`
@@ -16,6 +17,7 @@ element.innerHTML =`
 </div>
 </header>
 `;
+console.log("huj1")
 root.appendChild(element);
 };
 export default home
