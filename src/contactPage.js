@@ -1,6 +1,7 @@
 const contactPage = () => {
     const root = document.getElementById('content')
     const element  = document.createElement('div')
+    console.log("contact")
     element.innerHtml = `
     <div class="menu-container text-center">
       <div class="center-card">
@@ -38,5 +39,6 @@ const contactPage = () => {
     </div>
   `
   root.appendChild(element);
+  console.log("end")
 };
 export default contactPage
