@@ -11,7 +11,7 @@ element.innerHTML =`
 <li class="menu-item"><a href="#home"class="nav-menu-link">Home</a></li>
 <li class="menu-item"><a href="#menu" class="nav-menu-link">Menu</a></li>
 <li class="menu-item"><a href="#about" class="nav-menu-link" id="about">About Us</a></li>
-<li class="menu-item"><a href="#contact" id="contact" >Contactttt</a>fhhh</li>
+<li class="menu-item"><a href="#contact" id="contact" >Contact</a></li>
 </ul>
 </div>
 </header>

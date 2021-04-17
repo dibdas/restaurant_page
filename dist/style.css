@@ -21,4 +21,8 @@
 a {
   text-decoration: none;
   color:white;
+  list-style: none;
+}
+.menu-item{
+  list-style: none;
 }
