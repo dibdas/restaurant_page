@@ -2,7 +2,7 @@ const contactPage = () => {
     const root = document.getElementById('content')
     const element  = document.createElement('div')
     console.log("contact")
-    element.innerHtml = `
+    element.innerHTML = `
     <div class="menu-container text-center">
       <div class="center-card">
         <h1>Contact us.</h1>

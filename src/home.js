@@ -10,8 +10,8 @@ element.innerHTML =`
 <ul class="menu-list">
 <li class="menu-item"><a href="#home"class="nav-menu-link">Home</a></li>
 <li class="menu-item"><a href="#menu" class="nav-menu-link">Menu</a></li>
-<li class="menu-item"><a href="#about">About</a></li>
-<li class="menu-item"><a href="#contact" id="contact" >Contact</a></li>
+<li class="menu-item"><a href="#about" class="nav-menu-link" id="about">About Us</a></li>
+<li class="menu-item"><a href="#contact" id="contact" >Contactttt</a>fhhh</li>
 </ul>
 </div>
 </header>

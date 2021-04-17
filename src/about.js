@@ -2,9 +2,13 @@ const about = () => {
     const root = document.getElementById('content')
     const element  = document.createElement('div')
     console.log("about")
-    element.innerHtml = `
-    
-
+    element.innerHTML = `
+    <div class="menu-container text-center">
+    <div class="center-card">
+      <h1 class="heading">About project</h1>
+      <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    </div>
+  </div>
   `
   root.appendChild(element);
 };
