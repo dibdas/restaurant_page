@@ -6,7 +6,7 @@ element.innerHTML =`
 <div class="logo-name">
 <a href="#">Exim's Kitchen</a>
 </div>
-<div class="container-fluid menu">
+<div class="menu">
 <ul class="menu-list">
 <li class="menu-item"><a href="#home"class="nav-menu-link">Home</a></li>
 <li class="menu-item"><a href="#menu" class="nav-menu-link" id="menu">Menu</a></li>
