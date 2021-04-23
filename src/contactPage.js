@@ -12,10 +12,6 @@ const contactPage = () => {
             <input type="text" id="name" class="form-control"  placeholder="Name">
           </div>
 
-<div class="input-group mb-3">
-<input type="text" class="form-control" placeholder="Name">
-</div>
-
           <div class="form-group">
             <input type="email" id="email" class="form-control"  placeholder="email">
           </div>
