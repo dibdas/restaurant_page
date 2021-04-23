@@ -23,6 +23,16 @@
     text-align: center;
     padding-top: 10em;
   }
+  .menu-container{
+    list-style: none;
+    color: white;
+    text-align: center;
+    padding-top: 5em;
+
+  }
+  .card{
+    list-style: none;
+  }
   
 a {
   text-decoration: none;
