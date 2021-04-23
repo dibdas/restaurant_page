@@ -4,13 +4,24 @@ import about from './about';
 import menu from './menu';
 
 home();
+about();
+contactPage();
+menu();
 
-const about_us = document.querySelector('#about');
-about_us.addEventListener('click',()=> about())
 
-const menu_list = document.querySelector('#menu')
-menu_list.addEventListener('click',()=> menu())
 
-const contact = document.querySelector('#contact');
-contact.addEventListener('click', () => contactPage())
- console.log("gg45j");
+const content = document.querySelector('#content');
+
+const homeTab = document.querySelector('#home');
+const menuTab = document.querySelector('#menu');
+const contactTab = document.querySelector('#contact');
+
+const tabs = [homeTab, menuTab, contactTab];
+
+
+tabs.forEach((tab)=>{
+    tab.addEventListener('click',()=>{
+        content.innerHTML='';
+        content.appendChild(tab)
+    })
+})
