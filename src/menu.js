@@ -1,10 +1,10 @@
-import home from './home';
+import home from './home'; // eslint-disable-line
 
-const menu = () =>{
-    const root = document.getElementById('content');
-    const element = document.createElement('div');
-    root.innerHTML=' '
-    element.innerHTML =`
+const menu = () => {
+  const root = document.getElementById('content');
+  root.innerHTML = '';
+  const element = document.createElement('div');
+  element.innerHTML = `
     <div class="menu-container menu-center">
         <ul class="card-list">
           <li class="card">
@@ -64,6 +64,6 @@ const menu = () =>{
     </div>
   
     `;
-    root.appendChild(element);
-    };
-    export default menu
+  root.appendChild(element);
+};
+export default menu;

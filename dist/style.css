@@ -48,18 +48,21 @@ a {
   justify-content: space-between;
   align-items: center;
 
-  border: 2px solid white;
+  
 }
 .logo-name {
   align-items: flex-start;
-  border: 1px solid white;
+  
   padding: 0 0 0 0.5em;
 }
 .menu-list {
   display: flex;
   list-style: none;
   align-items: flex-end;
-  border: 1px solid white;
+}
+.contact{
+  margin-top: 0.5em;
+
 }
 
 .menu-item {
