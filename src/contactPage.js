@@ -1,6 +1,9 @@
+import home from './home';
+home();
 const contactPage = () => {
     const root = document.getElementById('content')
     const element  = document.createElement('div')
+    root.innerHTML=' ';
     console.log("contact")
     element.innerHTML = `
     <div class="menu-container text-center">

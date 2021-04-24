@@ -1,6 +1,9 @@
+import home from './home';
+
 const menu = () =>{
     const root = document.getElementById('content');
     const element = document.createElement('div');
+    root.innerHTML=' '
     element.innerHTML =`
     <div class="menu-container menu-center">
         <ul class="card-list">

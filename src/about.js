@@ -1,7 +1,11 @@
+import home from './home';
+
 const about = () => {
     const root = document.getElementById('content')
+    root.innerHTML=' '
     const element  = document.createElement('div')
     console.log("about")
+    
     element.innerHTML = `
     <div class="about-container text-center ">
     <div class="center-card">

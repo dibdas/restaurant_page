@@ -1,5 +1,6 @@
 const home = () =>{
 const root = document.getElementById('content');
+
 const element = document.createElement('div');
 element.innerHTML =`
 <header class="navbar">
