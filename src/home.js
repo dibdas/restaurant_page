@@ -1,3 +1,4 @@
+
 const home = () =>{
 const root = document.getElementById('content');
 
@@ -18,5 +19,7 @@ element.innerHTML =`
 </header>
 `;
 root.appendChild(element);
+
+
 };
 export default home
