@@ -27,6 +27,7 @@ This project is a restaurant page website to display the list of menus. The scre
 Users can view the site and look for the available menu's list and see the about and contact section of the website.
 
 ## Live Demo
+https://dibdas.github.io/restaurant_page/
 
 ## Built With
 
