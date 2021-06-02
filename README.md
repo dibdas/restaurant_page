@@ -1,5 +1,5 @@
-
 # Restaurant page
+This is a simple restaurant webpage built with Javascript.
 
 ## Table of contents
 
@@ -20,7 +20,7 @@
 
 This project is a restaurant page website to display the list of menus. The screenshot of the homepage of the project is as below.
 
-![Screenshot of homepage](./dist/images/app_snap.png)
+![Screenshot of homepage](./dist/images/app.png)
 
 ## Features
 
