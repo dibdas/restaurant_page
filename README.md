@@ -1,6 +1,6 @@
 
 # Restaurant page
-d
+This project is a restaurant page website to display the list of menus.
 ## Table of contents
 
 - [About](#about)
